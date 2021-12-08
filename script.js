@@ -11,7 +11,7 @@ function flipCard() {
   score++;
   message.innerHTML=`<h1> Your  Current Score :  ${score}</h1>`;
   message.style.color="#fff"
-  if(countClick <20){
+  if(countClick <15){
     if (lockBoard) return;
     if (this === firstCard) return;
   
